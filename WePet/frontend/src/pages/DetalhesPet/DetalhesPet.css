@@ -1,0 +1,26 @@
+.interesse-btn {
+  margin-top: 25px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  background: #e98245;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.interesse-btn:hover {
+  background: #d96f32;
+}
+
+.interesse-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.mensagem-contato {
+  margin-top: 15px;
+  color: #263746;
+  font-weight: 500;
+}

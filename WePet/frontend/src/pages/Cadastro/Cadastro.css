@@ -1,0 +1,156 @@
+.cadastro-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f5f0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.cadastro-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 35px;
+  background: #fffefa;
+  border-radius: 24px;
+}
+
+.cadastro-brand {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cadastro-logo {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 12px;
+  background: #ff7926;
+  border-radius: 20px;
+  font-size: 42px;
+}
+
+.cadastro-brand h1 {
+  margin: 0;
+  color: #202b3b;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cadastro-brand h1 span {
+  color: #ff7926;
+}
+
+.cadastro-brand p {
+  color: #202b3b;
+  font-size: 13px;
+}
+
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cadastro-field {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.cadastro-field label {
+  color: #202b3b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.cadastro-field input {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid #e0e3e8;
+  border-radius: 12px;
+  background: #fff;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.cadastro-field input:focus {
+  border-color: #ff7926;
+}
+
+.cadastro-field input::placeholder {
+  color: #9aa3b2;
+}
+
+.tipo-conta {
+  display: flex;
+  gap: 10px;
+}
+
+.tipo-conta button {
+  flex: 1;
+  height: 44px;
+  border: 1px solid #e0e3e8;
+  border-radius: 12px;
+  background: white;
+  color: #202b3b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tipo-conta button.ativo {
+  border-color: #ff7926;
+  background: #fff2e9;
+  color: #ff7926;
+}
+
+.cadastro-button {
+  height: 48px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 12px;
+  background: #ff7926;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cadastro-button:hover {
+  background: #ed691b;
+}
+
+.cadastro-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.cadastro-error {
+  margin: 0;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.voltar-login {
+  text-align: center;
+  color: #202b3b;
+  font-size: 13px;
+}
+
+.voltar-login a {
+  color: #ff7926;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .cadastro-container {
+    padding: 28px 20px;
+    background: transparent;
+  }
+}

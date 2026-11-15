@@ -1,0 +1,88 @@
+.conversas-page {
+  min-height: 100vh;
+  padding: 35px 7%;
+  background: #f8f6f0;
+}
+
+.conversas-page > h1 {
+  margin-top: 25px;
+  color: #263746;
+  font-size: 30px;
+}
+
+.conversas-page > p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.conversas-lista {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.conversa-card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px;
+  background: white;
+  border-radius: 14px;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.conversa-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.conversa-avatar {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0e5d8;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.conversa-info {
+  flex: 1;
+}
+
+.conversa-info h2 {
+  color: #263746;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.conversa-info p {
+  color: #777;
+  font-size: 14px;
+}
+
+.conversa-card > span {
+  font-size: 28px;
+  color: #e98245;
+}
+
+.conversas-erro {
+  color: #c0392b;
+}
+
+@media (max-width: 600px) {
+  .conversas-page {
+    padding: 25px 5%;
+  }
+
+  .conversa-card {
+    padding: 14px;
+  }
+}
