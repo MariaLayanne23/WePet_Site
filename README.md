@@ -6,6 +6,13 @@ A aplicação busca facilitar o processo de adoção responsável, oferecendo um
 
 🌐 **Acesse a plataforma:** https://we-pet-site.vercel.app/
 
+**Grupo do projeto:**
+
+- Maria Layanne
+- Vinícius Matheus
+- Fabio Fernandes
+- Gustavo Santos França
+
 ---
 
 ## 🎯 Objetivo
