@@ -51,7 +51,7 @@ Desenvolver uma solução tecnológica que facilite a conexão entre adotantes e
 - Mongoose
 
 ### Banco de dados
-- MongoDB Atlas
+- MongoDB Atlas.
 
 ### Hospedagem
 - **Vercel:** hospedagem do frontend.
